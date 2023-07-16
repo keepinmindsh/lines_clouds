@@ -50,6 +50,6 @@ resource "aws_instance" "app_server" {
   }
 
   tags = {
-    Name = "SwitAppServerSample"
+    Name = var.instance_name
   }
 }
