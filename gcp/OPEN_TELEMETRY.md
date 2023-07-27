@@ -104,3 +104,4 @@ func OpenTelemetryMiddleware() gin.HandlerFunc {
 > [Manual Setting](https://opentelemetry.io/docs/instrumentation/go/manual/)     
 > [Manual Real Sample](https://github.com/open-telemetry/opentelemetry-go/tree/main/example)   
 > [Open Telemetry](https://haandol.github.io/2021/12/13/demystifying-observability-and-opentelemetry-2.html#fn:2)   
+> [Open Telemetry - Sample Settings](https://uptrace.dev/opentelemetry/go-tracing.html#adding-span-events)  
