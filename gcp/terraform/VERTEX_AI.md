@@ -29,3 +29,6 @@ resource "google_notebooks_instance" "basic_instance" {
 
 > [https://cloud.google.com/compute/docs/regions-zones?hl=ko&_ga=2.263450308.-998368575.1677453805&_gac=1.40037014.1690435222.EAIaIQobChMIzZOB7JGugAMVhB59Ch1qfQrWEAAYASAAEgJWl_D_BwE](https://cloud.google.com/compute/docs/regions-zones?hl=ko&_ga=2.263450308.-998368575.1677453805&_gac=1.40037014.1690435222.EAIaIQobChMIzZOB7JGugAMVhB59Ch1qfQrWEAAYASAAEgJWl_D_BwE)   
 > [https://cloud.google.com/vertex-ai/docs/start/use-terraform-vertex-ai?hl=ko#terraform_resources_vertex_ai](https://cloud.google.com/vertex-ai/docs/start/use-terraform-vertex-ai?hl=ko#terraform_resources_vertex_ai)   
+> [https://cloud.google.com/architecture/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build?hl=ko](https://cloud.google.com/architecture/architecture-for-mlops-using-tfx-kubeflow-pipelines-and-cloud-build?hl=ko)     
+> [https://www.tensorflow.org/tfx/transform/get_started](https://www.tensorflow.org/tfx/transform/get_started)  
+   
