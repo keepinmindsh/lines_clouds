@@ -10,8 +10,6 @@ OpenTelemetry는 telemetry(trace, metric and logs) 데이터를 만들고 관리
 - 로그 ( Logs )
 - 트레이싱 ( Traces )
 
-## Sample ( GCP )
-
 ```go
 package main
 

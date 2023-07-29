@@ -11,6 +11,9 @@ terraform {
 
 provider "aws" {
   region  = "ap-northeast-2"
+  shared_config_files = ["/Users/howard/.aws/config"]
+  shared_credentials_files = ["/Users/howard/.aws/credentials"]
+  profile = "default"
 }
 
 resource "aws_vpc" "swit_vpc" {
@@ -31,6 +34,11 @@ resource "aws_subnet" "swit_subnet" {
   }
 }
 
+resource "aws_elasticache_subnet_group" "swit_elastic" {
+  name       = "tf-test-cache-subnet"
+  subnet_ids = [aws_subnet.swit_subnet.id]
+}
+
 resource "aws_network_interface" "swit-ec2" {
   subnet_id   = aws_subnet.swit_subnet.id
   private_ips = ["172.16.10.100"]
@@ -38,6 +46,18 @@ resource "aws_network_interface" "swit-ec2" {
   tags = {
     Name = "primary_network_interface"
   }
+}
+
+resource "aws_elasticache_cluster" "swit-cache" {
+  cluster_id           = "cluster-example"
+  engine               = "redis"
+  node_type            = "cache.m4.large"
+  num_cache_nodes      = 1
+  parameter_group_name = "default.redis3.2"
+  engine_version       = "3.2.10"
+  port                 = 6379
+  subnet_group_name = "tf-test-cache-subnet"
+
 }
 
 resource "aws_instance" "app_server" {

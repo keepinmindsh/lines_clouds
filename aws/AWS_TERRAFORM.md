@@ -59,3 +59,7 @@ terraform destroy
 ### Elastic Cache
 
 > [Elastic Cache](#https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/elasticache_cluster)
+
+### Module 사용법 
+
+> [TF Module Use](https://developer.hashicorp.com/terraform/tutorials/modules/module-use)
