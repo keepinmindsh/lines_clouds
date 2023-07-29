@@ -63,3 +63,8 @@ terraform destroy
 ### Module 사용법 
 
 > [TF Module Use](https://developer.hashicorp.com/terraform/tutorials/modules/module-use)
+
+
+### EKS 
+
+> [EKS Blue Print](https://aws-ia.github.io/terraform-aws-eks-blueprints/v4.32.1/)
