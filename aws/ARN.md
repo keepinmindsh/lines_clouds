@@ -63,3 +63,4 @@ arn:aws:ec2:us-east-1:123456789012:vpc/vpc-0e9801d129EXAMPLE
 
 > [ARN](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/reference-arns.html)       
 > [AWS - ARN 이란?](https://galid1.tistory.com/387)    
+> [ARN Resources](https://may9noy.tistory.com/168)   
