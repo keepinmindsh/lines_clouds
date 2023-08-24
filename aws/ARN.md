@@ -1,4 +1,6 @@
-# ARN ( Amazon Resource Number)
+# ARN ( Amazon Resource 이름 )
+
+Amazon 리소스 이름(ARN)은 AWS 리소스를 고유하게 식별합니다. IAM 정책, Amazon Relational Database Service(RDS) 태그 및 API 호출과 같은 모든 AWS에서 리소스를 명료하게 지정해야 하는 경우 ARN이 필요합니다.
 
 AWS 는 Amazon Resource Number 의 약자로 우리가 람다함수를 생성할 때 EC2를 생성할 때 생성되는 일련번호입니다. 
 AWS 에는 각각의 서비스에서 만든 리소스들은 ARN 으로 구분하고 ARN 이 다르다면 서로 다르게 취급합니다. 
@@ -64,3 +66,9 @@ arn:aws:ec2:us-east-1:123456789012:vpc/vpc-0e9801d129EXAMPLE
 > [ARN](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/reference-arns.html)       
 > [AWS - ARN 이란?](https://galid1.tistory.com/387)    
 > [ARN Resources](https://may9noy.tistory.com/168)   
+
+## References 
+
+- [Amazon 리소스 이름](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/reference-arns.html)
+- [Amazon RDS의 Amazon 리소스 이름(ARN)을 사용한 작업](https://docs.aws.amazon.com/ko_kr/AmazonRDS/latest/AuroraUserGuide/USER_Tagging.ARN.html)
+- [Amazon DocumentDB Amazon 리소스 이름(ARN) 이해](https://docs.aws.amazon.com/ko_kr/documentdb/latest/developerguide/documentdb-arns.html)
